@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.uppernav {
+  width: auto;
+  height: 70px;
+  background-color: #f8f9fa;
+}
+
+.uppernav ul li {
+  list-style: none;
+  display: inline;
+}
+
+.uppernav ul li a {
+  color: black;
+  text-decoration: none;
+  float: right;
+  padding: 30px;
+  padding-right: 40px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.flink {
+  float: left;
+}
+
+.flink ul li a {
+  font-size: 60px;
+}
+
+.uppernav ul li a:hover {
+  cursor: pointer;
+}
+
+.header {
+  background-image: url(./story-bridge-3.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 350px;
+  font-weight: lighter;
+}
+
+.header input {
+  width: 75%;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.headtxt {
+  padding-top: 150px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.input::-webkit-input-placeholder {
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.input:-ms-input-placeholder {
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.input::-ms-input-placeholder {
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.input::placeholder {
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.input {
+  margin-top: 10px;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-right: 80px;
+  padding-left: 150px;
+}
+
+#container > div {
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+
+.first {
+  background-image: url(./first.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 300px;
+  color: white;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.first p {
+  padding-top: 200px;
+}
+
+.first:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.second {
+  background-image: url(./second.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 300px;
+  color: white;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.second p {
+  padding-top: 200px;
+}
+
+.second:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.mumbai {
+  background-image: url(./mumbai.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 300px;
+  color: white;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.mumbai p {
+  padding-top: 200px;
+}
+
+.mumbai:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.singaore {
+  background-image: url(./singapore.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 300px;
+  color: white;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.singaore p {
+  padding-top: 200px;
+}
+
+.singaore:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.dubai {
+  background-image: url(./dubai.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 300px;
+  color: white;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.dubai p {
+  padding-top: 200px;
+}
+
+.dubai:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.goa {
+  background-image: url(./GOa.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 300px;
+  color: white;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.goa p {
+  padding-top: 200px;
+}
+
+.goa:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.uk {
+  background-image: url(./uk.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 300px;
+  color: white;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.uk p {
+  padding-top: 200px;
+}
+
+.uk:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.paris {
+  background-image: url(./paris.jpg);
+  background-size: cover;
+  height: 350px;
+  width: 300px;
+  color: white;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.paris p {
+  padding-top: 200px;
+}
+
+.paris:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.footer {
+  display: block;
+  height: 20px;
+  background-color: #494747;
+  margin: 100px;
+}
+/*# sourceMappingURL=style.css.map */
