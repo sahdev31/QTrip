@@ -2,6 +2,19 @@ $font-stake: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Ari
 
 
 
+@media screen and (max-width: 600px) {
+    #container{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #container > div {
+        width: 200px;
+        height: 350px;
+    }
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -242,16 +255,6 @@ $font-stake: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Ari
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-    #container{
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    #container > div {
-        width: 200px;
-        height: 350px;
-    }
-}
 
     
 
