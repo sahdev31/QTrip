@@ -88,8 +88,8 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-right: 80px;
   padding-left: 150px;
+  padding-right: 150px;
 }
 
 #container > div {
@@ -97,7 +97,10 @@
   font-size: 20px;
   margin: 20px;
   padding: 20px;
-  width: 200px;
+  width: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .first {
@@ -246,8 +249,21 @@
 
 .footer {
   display: block;
-  height: 20px;
+  height: auto;
   background-color: #494747;
-  margin: 100px;
+  margin-top: 117px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+@media screen and (max-width: 499px) {
+  #container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  #container > div {
+    width: 200px;
+    height: 350px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
