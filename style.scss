@@ -234,5 +234,14 @@ $font-stake: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Ari
     display: block;
     height: 20px;
     background-color: rgb(73, 71, 71);
-    margin: 100px;
+    margin: 0 100px;
+}
+@media only screen and (max-width: 500px) {
+
+  #container {
+
+    padding: auto;
+
+  }
+
 }
